@@ -1,0 +1,84 @@
+<meta charset="utf-8">
+<div class="container">
+  <h2 id="signup-title" class="text-center">Your Favourite Menu Item!!!</h2>
+ 
+<div>
+
+      <div ng-show = {{myinfo.test}}>
+      <p>Not Signed Up Yet.
+        <a ui-sref="public.signup">{{myinfo.text}}</a>
+        </p>
+        </div>
+          <br>
+
+<div ng-show= {{myinfo.test1}}>
+
+       <div>
+        FIRST NAME: {{myinfo.firstname}}
+        </div>
+          <br>
+
+          <div>
+        LAST NAME: {{myinfo.lastname}}
+        </div>
+          <br>
+
+          <div>
+        EMAIL: {{myinfo.email}}
+        </div>
+          <br>
+
+          <div>
+        PHONE: {{myinfo.phone}}
+        </div>
+          <br>
+
+      <div>
+        MENU NUMBER: {{myinfo.shortname}}
+        </div>
+          <br>
+
+        <div>
+        NAME: {{myinfo.name}}
+        </div>
+          <br>
+
+           <div>
+           <h6>MENU IMAGE</h6>
+           <img ng-src="{{myinfo.image}}">
+           </div>
+           <br>
+
+
+        <div>
+        DESCRIPTION: {{myinfo.description}}
+        </div>
+          <br>
+
+
+          <div>
+        SMALLPRICE: {{myinfo.pricesmall}}
+        </div>
+          <br>
+
+          <div>
+       LARGEPRICE: {{myinfo.pricelarge}}
+        </div>
+          <br>
+
+          <div>
+       SMALL PORTION QUANTITY: {{myinfo.smallportionname}}
+        </div>
+          <br>
+
+          <div>
+        LARGE PORTION QUANTITY: {{myinfo.largeportionname}}
+        </div>
+          <br>
+</div>
+
+
+
+
+</div>
+
